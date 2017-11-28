@@ -2,7 +2,7 @@
 /* CSS Document */
 body
 {
-	background-image: url('Amaryllis2.jpg');
+	background-image: url('Amaryllis2g.png');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -19,6 +19,11 @@ h1, h2
 {
 	color:white;
 }
+#Photocv img
+{
+	width: 400px;
+	height: 400px;
+}
 #Photocv
 {
 	text-align: center;
@@ -29,7 +34,7 @@ h1
 }
 h3
 {
-	color: darkred;
+	color: #A30E11;
 }
 h2
 {
