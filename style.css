@@ -2,16 +2,20 @@
 /* CSS Document */
 body
 {
-	background-image: url('Amaryllis2g.png');
+	background-image: url('Amaryllis3.png');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
-	
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	display: flex;
+	flex-wrap: wrap;
+	margin:0;
+	padding: 0;
 }
 h1, h2
 {
-	color:black;
+	color:#FFB9B9;
 	text-align: center;
 	font-weight: bold; 
 }
@@ -23,6 +27,7 @@ h1, h2
 {
 	width: 400px;
 	height: 400px;
+	margin-top: 9%;
 }
 #Photocv
 {
@@ -31,10 +36,18 @@ h1, h2
 h1 
 {
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	border: thin white solid;
+	box-shadow: 6px 6px 6px black;
+	background-color: black;
+	width: 30%;
+	margin: auto;
+	text-align: center;
+	margin-top: 7%;
 }
 h3
 {
-	color: #A30E11;
+	color: #FF7878;
+
 }
 h2
 {
@@ -43,4 +56,39 @@ h2
 #email
 {
 	color: yellow;
+}
+h5
+{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+section
+{
+	border: thin white dotted;
+	margin: auto;
+	padding: 10px;
+}
+
+main
+{
+	display: flex;
+	flex-wrap: wrap;
+	width : 70%;
+	justify-content: space-around;
+}
+
+header
+{
+	width: 100%;
+}
+
+aside
+{
+	width: 30%;
+	display: block;
+}
+#Whatsapp
+{
+	width: 10%;
+	height: 10%;
 }
