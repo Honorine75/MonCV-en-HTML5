@@ -27,7 +27,7 @@ h1, h2
 {
 	width: 400px;
 	height: 400px;
-	margin-top: 9%;
+	margin-top: 5%;
 }
 #Photocv
 {
@@ -38,11 +38,11 @@ h1
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	border: thin white solid;
 	box-shadow: 6px 6px 6px black;
-	background-color: black;
 	width: 30%;
 	margin: auto;
 	text-align: center;
 	margin-top: 7%;
+	background-color: rgba(0,0,0,0.20);
 }
 h3
 {
@@ -64,7 +64,7 @@ h5
 
 section
 {
-	border: thin white dotted;
+	border: thin black dotted;
 	margin: 0;
 	padding: 0;
 	padding-left: 2%;
@@ -89,8 +89,13 @@ aside
 	width: 30%;
 	display: block;
 }
-#Whatsapp
+
+.Logo img 
 {
 	width: 10%;
-	height: auto;
+	height: 10%;
+}
+.Images img
+{
+	width: 25%;
 }
