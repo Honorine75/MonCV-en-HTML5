@@ -11,7 +11,7 @@ body
 	display: flex;
 	flex-wrap: wrap;
 	margin:0;
-	padding: 0;
+	padding:0;
 }
 h1, h2
 {
@@ -65,8 +65,10 @@ h5
 section
 {
 	border: thin white dotted;
-	margin: auto;
-	padding: 10px;
+	margin: 0;
+	padding: 0;
+	padding-left: 2%;
+	width: 98%;
 }
 
 main
@@ -74,7 +76,7 @@ main
 	display: flex;
 	flex-wrap: wrap;
 	width : 70%;
-	justify-content: space-around;
+	align-items: stretch;
 }
 
 header
@@ -90,5 +92,5 @@ aside
 #Whatsapp
 {
 	width: 10%;
-	height: 10%;
+	height: auto;
 }
