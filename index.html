@@ -13,15 +13,15 @@
 </header>
 
 <aside>
-	<section> 
+	<section id="profil"> 
 		<h2>Profil</h2>
-			21 ans<br/>
+			22 ans<br/>
 			Française<br/>
 			Permis B<br/>
  			Célibataire<br/>
 		</section>
  	
-	<section> 
+	<section id="contact"> 
  		<h2>Contactez-moi</h2>
  			<h3>Téléphone</h3>
  				07 69 49 41 83
@@ -29,14 +29,15 @@
  				<a href="mailto:honorinelopes75@gmail.com" id="email">honorinelopes75@gmail.com</a>
  			<h3>Réseaux sociaux</h3>
  				<div class="Images">
+					<a href="https://honorinelopes75.wixsite.com/monblog" target="_blank"><img src="blogger.png" alt="Mon blog" title="Mon blog : Les clips vidéo en réalité virtuelle"/></a>
 					<a href="https://www.linkedin.com/in/honorine-lopes-526294139/" target="_blank"><img src="linkedin.png" alt="Mon compte LinkedIn" title="Rejoignez mon réseau sur LinkedIn!"/></a>		
-	
+					
 		        <img src="skype.png" alt="Icône Skype" title="J'ai un compte Skype!"/>
  				<img src="whatsapp.png" alt="Icône Whatsapp" title="J'ai un compte Whatsapp!"/>
 				</div>
 		</section>
 
-		<section> 
+		<section id="interet"> 
  		<h2>Centres d'intérêt</h2>
  			<ul>
  				<li>Musique</li>
@@ -46,7 +47,7 @@
  			</ul>
 		</section>	
 
-	<section>
+	<section id="diverses">
  		<h2>Expériences diverses</h2>
 	
  			<h3>Expériences artistiques</h3>
@@ -63,7 +64,7 @@
 	</aside> 
 	
 	<main> 
-	<section> 
+	<section id="professionnelles"> 
 		<h2>Expériences professionnelles</h2>
 			<h3>Société de Distribution Aéroportuaire (SDA)<br/>
 			Lagardère Travel Retail, CDD</h3>
@@ -75,7 +76,7 @@
 				Stage d'observation au service Médiation de l'information aux côtés de Marie-Laure Augry.
 	</section>
 		
-	<section> 
+	<section id="formation"> 
 		<h2>Formation</h2>
 			<h3>Master Design d'Interface Multimédia et Internet (DIMI)</h3>
 				Université Paris 13, Villetaneuse : Septembre 2017 à ce jour
@@ -85,7 +86,7 @@
 				Lycée Hugues Capet, Senlis : 2014
 	</section> 
 	
-	<section> 
+	<section id="competences"> 
 		<h2>Compétences</h2>
 			<h3>Langues</h3>
 				Anglais niveau B1<br/>
@@ -101,7 +102,7 @@
 					<li>Photoshop</li>
 					<li>HTML5/CSS</li>
 				</ul>
-			<h4>Gestion des réseaux sociaux</h4>
+			<h3>Gestion des réseaux sociaux</h3>
 			<div class="Logo">
 				<img src="facebook.png" alt="Icône Facebook" title="Facebook"/>
 		        <img src="instagram.png" alt="Icône Instagram" title="Instagram"/>
@@ -116,9 +117,22 @@
 </main>
 	
 <footer>
-	<h5>Honorine Lopes</h5>
+	<h4>A bientôt !</h4>
  </footer>
 
+ <script>
+    contact = document.getElementById("contact");
+	contact.style.display = "block";
+	contact.onclick = function(){
+		if(contact.style.display == "block"){
+			contact.style.display = "absolute";
+		}
+		else{
+			contact.style.display = "block";
+		}
+	}	
+     
+ </script>
  </body>
 </html>
 	
